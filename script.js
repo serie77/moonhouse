@@ -1,5 +1,5 @@
 // Contract address and links
-const CONTRACT_ADDRESS = "GkjPY7nCFbduLknCtBfP7p8564XNZtnzVJ6CZpump";
+const CONTRACT_ADDRESS = "GytpbvfRqQE9snrJ87fbmSvPR5wNmRafxbkAu8khmoon";
 const CHART_URL = "https://dexscreener.com/solana/" + CONTRACT_ADDRESS;
 const BUY_URL = "https://jup.ag/swap/SOL-" + CONTRACT_ADDRESS;
 
