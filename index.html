@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>$MOONHOUSE</title>
+    <link rel="icon" href="moonhouse.jpg" type="image/jpeg">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Portal Entry Screen -->
+    <div id="portalScreen" class="portal-screen">
+        <div class="stars"></div>
+        <div class="portal-content">
+            <div class="portal-circle">
+                <div class="portal-inner">
+                    <img src="moonhouse.jpg" alt="MoonHouse" class="portal-img">
+                </div>
+            </div>
+            <h1 class="portal-title">ENTER THE MOONHOUSE</h1>
+            <button id="enterBtn" class="enter-btn">LAUNCH INTO SPACE</button>
+        </div>
+    </div>
+
+    <!-- Main Site -->
+    <div id="mainSite" class="main-site hidden">
+        <!-- Background Elements -->
+        <div class="space-bg">
+            <div class="stars-bg"></div>
+            <div class="planets">
+                <div class="planet planet1"></div>
+                <div class="planet planet2"></div>
+                <div class="planet planet3"></div>
+            </div>
+        </div>
+
+        <!-- Floating Meme Images -->
+        <div class="floating-memes">
+            <img src="moonhouse.jpg" class="meme-float meme1" alt="">
+            <img src="moonhouse2.jpg" class="meme-float meme2" alt="">
+            <img src="moonhouse3.png" class="meme-float meme3" alt="">
+            <img src="moonhouse4.png" class="meme-float meme4" alt="">
+        </div>
+
+        <!-- Header -->
+        <header class="header">
+            <div class="container">
+                <div class="logo">
+                    <img src="moonhouse.jpg" alt="MoonHouse" class="logo-img">
+                    <span class="logo-text">$MOONHOUSE</span>
+                </div>
+                <div class="header-right">
+                    <div class="price-ticker">
+                        <span class="ticker-label">MCAP:</span>
+                        <span class="ticker-value glitch" data-text="$999,999,999">$999,999,999</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="glitch-big" data-text="MOONHOUSE">MOONHOUSE</span>
+                        <span class="subtitle">CHILLHOUSE BUT ON THE MOON</span>
+                    </h1>
+                    
+                    <div class="hero-ca">
+                        <div class="ca-container">
+                            <span class="ca-label">CONTRACT:</span>
+                            <span class="ca-address" id="heroCA">GytpbvfRqQE9snrJ87fbmSvPR5wNmRafxbkAu8khmoon</span>
+                        </div>
+                    </div>
+                    
+                    <div class="chaos-container">
+                        <!-- Central spinning main image -->
+                        <div class="center-piece">
+                            <img src="moonhouse.jpg" class="main-image spinning" alt="MoonHouse">
+                        </div>
+
+                        <!-- Orbiting meme images -->
+                        <div class="orbit-container">
+                            <div class="orbit-meme orbit-1">
+                                <img src="moonhouse2.jpg" alt="Meme 1" class="rotating enlargeable-meme">
+                            </div>
+                            <div class="orbit-meme orbit-2">
+                                <img src="moonhouse3.png" alt="Meme 2" class="bouncing enlargeable-meme">
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Moonshot launchpad section -->
+                    <div class="launchpad-section">
+                        <div class="launchpad-container">
+                            <img src="moonshot.jpg" alt="Moonshot Launchpad" class="launchpad-bg">
+                            <div class="launchpad-overlay">
+                                <span class="launchpad-text">LAUNCHED ON</span>
+                                <span class="launchpad-name">MOONSHOT</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="action-buttons">
+                        <a href="https://moonshot.com/GytpbvfRqQE9snrJ87fbmSvPR5wNmRafxbkAu8khmoon" target="_blank" rel="noopener noreferrer" class="btn btn-primary rainbow-btn" id="buyBtn">
+                            <span class="btn-text">BUY NOW</span>
+                            <span class="btn-rockets">🚀🚀🚀</span>
+                        </a>
+                        <a href="https://dexscreener.com/solana/GytpbvfRqQE9snrJ87fbmSvPR5wNmRafxbkAu8khmoon" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" id="chartBtn">CHART</a>
+                        <button class="btn btn-tertiary" id="copyCABtn">COPY CA</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Banner Section -->
+        <section class="banner-section">
+            <div class="banner-container">
+                <img src="moonhouse4.png" alt="MoonHouse Banner" class="banner-img">
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="social-links">
+                    <a href="https://x.com/i/communities/1938999817662808464" class="social-btn">COMMUNITY</a>
+                    <a href="https://x.com/ChillMoonHouse" class="social-btn">TWITTER</a>
+                </div>
+                <div class="contract-address">
+                    <span id="contractText">GytpbvfRqQE9snrJ87fbmSvPR5wNmRafxbkAu8khmoon</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Image Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
